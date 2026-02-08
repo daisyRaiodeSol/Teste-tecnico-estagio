@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "pt">
+	<head>
+		<meta charset = "UTF-8">
+		<title>Cadastro de Usuario</title>
+		<link rel = "stylesheet" href = "style.css">
+	</head>
+
+	<body>
+		<!--form onsubmit = "validarFormulario(event);"-->
+		<!--O form abaixo serve para testar o formulario com o PHP, comente o primeiro form e descomente este ultimo. Coloque tambem em comentario a tag script-->
+		<form action = "processa.php" method = "post">
+			<label>Nome</label>
+			<input type = "text" id="nome" name = "nome">
+
+			<label>E-mail</label>
+			<input type = "email" id = "email" name = "email">
+
+			<label>Senha</label>
+			<input type = "password" id = "senha" name = "senha">
+			
+			<button type = "submit" onclick=" return validarFormulario()">Cadastrar</button>
+		</form>
+		
+		<script src = "script.js"></script>
+	</body>
+</html>
