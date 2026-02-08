@@ -1,0 +1,25 @@
+body{
+	font-family: Arial;
+	background: #eee;
+}
+
+form{
+	width: 300px;
+	margin: 100px auto;
+	margin-top: 15%;
+}
+
+label{
+	display: block;
+	margin-top: 10px;
+}
+
+input{
+	width: 100%;
+}
+
+button{
+	margin-top: 15px;
+	margin-left: 25%;
+	width:50%;
+}
